@@ -7,9 +7,9 @@
 
 import UIKit
 
+
 class ViewController: UIViewController {
-    
-    
+
     let countryTableView = UITableView()
     
     let mainView: UIView = {
@@ -37,7 +37,7 @@ class ViewController: UIViewController {
         
         func handleFetchedData() {
             let rs = countryViewModel.getData()
-            //print(rs.count)
+            print(rs.count)
         }
         
         func setUpMainView() {

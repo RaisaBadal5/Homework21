@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		048777392BDCCC00003201CD /* KeychainService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048777382BDCCBFF003201CD /* KeychainService.swift */; };
+		049FEB0D2BDC2F5A001DD9A2 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049FEB0C2BDC2F5A001DD9A2 /* MainViewController.swift */; };
 		04A86A982BD95C9F00B7A376 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A86A972BD95C9F00B7A376 /* AppDelegate.swift */; };
 		04A86A9A2BD95C9F00B7A376 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A86A992BD95C9F00B7A376 /* SceneDelegate.swift */; };
 		04A86A9C2BD95C9F00B7A376 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A86A9B2BD95C9F00B7A376 /* ViewController.swift */; };
@@ -20,6 +22,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		048777382BDCCBFF003201CD /* KeychainService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainService.swift; sourceTree = "<group>"; };
+		049FEB0C2BDC2F5A001DD9A2 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		04A86A942BD95C9F00B7A376 /* CountriesOfTheWorld.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CountriesOfTheWorld.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04A86A972BD95C9F00B7A376 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		04A86A992BD95C9F00B7A376 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -45,6 +49,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		049FEB0A2BDC2F31001DD9A2 /* MainPage */ = {
+			isa = PBXGroup;
+			children = (
+				049FEB0C2BDC2F5A001DD9A2 /* MainViewController.swift */,
+				048777382BDCCBFF003201CD /* KeychainService.swift */,
+			);
+			path = MainPage;
+			sourceTree = "<group>";
+		};
 		04A86A8B2BD95C9E00B7A376 = {
 			isa = PBXGroup;
 			children = (
@@ -64,6 +77,7 @@
 		04A86A962BD95C9F00B7A376 /* CountriesOfTheWorld */ = {
 			isa = PBXGroup;
 			children = (
+				049FEB0A2BDC2F31001DD9A2 /* MainPage */,
 				04B87DD22BDA8A2D009F5ED0 /* FisrtPage */,
 				04B87DD02BDA8A0D009F5ED0 /* Delegates */,
 				04B87DCD2BDA3639009F5ED0 /* SecondPage */,
@@ -216,9 +230,11 @@
 				04B87DD62BDA9741009F5ED0 /* DetailPageViewModel.swift in Sources */,
 				04A86A9C2BD95C9F00B7A376 /* ViewController.swift in Sources */,
 				04A86A982BD95C9F00B7A376 /* AppDelegate.swift in Sources */,
+				048777392BDCCC00003201CD /* KeychainService.swift in Sources */,
 				04A86AB42BD9856500B7A376 /* CountryCells.swift in Sources */,
 				04B87DCF2BDA36C6009F5ED0 /* DetailsPageController.swift in Sources */,
 				04A86AAF2BD95F8B00B7A376 /* CountryModel.swift in Sources */,
+				049FEB0D2BDC2F5A001DD9A2 /* MainViewController.swift in Sources */,
 				04A86A9A2BD95C9F00B7A376 /* SceneDelegate.swift in Sources */,
 				04A86AB22BD9679A00B7A376 /* CountryViewModel.swift in Sources */,
 			);
